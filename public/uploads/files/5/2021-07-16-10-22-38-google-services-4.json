@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "606192283485",
+    "firebase_url": "https://clinicasanfelipe-qa.firebaseio.com",
+    "project_id": "clinicasanfelipe-qa",
+    "storage_bucket": "clinicasanfelipe-qa.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:606192283485:android:5bc400846df1eb411a02b4",
+        "android_client_info": {
+          "package_name": "pe.solera.sanfelipe.dev"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "606192283485-jr5aofuh5rto2a8i61rrlcemlusk5549.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCRkld9fYow_CO41yvf0mxOlgvb7-FKdMk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "606192283485-jr5aofuh5rto2a8i61rrlcemlusk5549.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "606192283485-3us2je2eth1pu70v1626dsar9an06v90.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "pe.SanFelipe.ClinicaSanFelipe.Dev"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
