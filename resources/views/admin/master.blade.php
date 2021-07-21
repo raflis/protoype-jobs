@@ -64,7 +64,6 @@
               </button>
             </div>
             <div class="modal-body">
-                {!! Form::open(['route' => ['login.update', 1], 'method'=>'PUT']) !!}
                 <div class="form-group">
                     {{ Form::label('password', 'Contraseña actual:') }}
                     {{ Form::password('password', ['class' => 'form-control', 'placeholder'=>'Ingresa su contraseña actual']) }}
@@ -80,7 +79,6 @@
                 <div class="form-group float-right mb-0">
                     <button type="button" class="btn btn-danger" data-dismiss="modal">Cancelar</button>
                     {!! Form::submit('Cambiar contraseña',['class'=>'btn btn-success text-decoration-none text-white']) !!}
-                    {!! Form::close() !!}
                 </div>
             </div>
           </div>
@@ -101,7 +99,7 @@
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
-                <a class="btn btn-danger" href="{{ route('login.logout') }}" class="text-decoration-none text-white">Cerrar sesión</a>
+                <a class="btn btn-danger" href="" class="text-decoration-none text-white">Cerrar sesión</a>
             </div>
           </div>
         </div>
